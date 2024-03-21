@@ -1,31 +1,31 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .large-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
 }
 
 .title {
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 18px;
 }
 
-.text-lg {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.text-md {
+.text-rg {
   font-weight: 400;
   font-size: 15px;
-  line-height: 17px;
+  line-height: 18px;
+}
+
+.text-caption-md {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .text-rg-bd {
@@ -47,7 +47,7 @@ input,
 
 .caption {
   font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 8px;
+  line-height: 8px;
 }
 
