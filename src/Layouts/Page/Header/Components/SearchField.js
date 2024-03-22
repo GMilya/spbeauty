@@ -14,6 +14,7 @@ const Input = styled.input`
     background-color: #F8FAFC;
     color: #152842;
     width: 100%;
+    padding: 8px 16px 8px 16px;
     &:hover {
         background: #E2E8F0;
     }
@@ -24,6 +25,7 @@ const Input = styled.input`
 
 const SearchIconWrapper = styled.div`
     position: absolute;
+    margin-right: 16px;
     box-sizing:border-box;
     right: 0px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
@@ -33,7 +35,7 @@ const SearchIconWrapper = styled.div`
 function SearchField() {
     return (
         <WrapperInput className='d-inline-flex'>  {/* Устанавливает ширину поля и включает относительное положение */}
-            <Input className='p-2' placeholder=' Найти'/>
+            <Input className='' placeholder='Найти'/>
             <SearchIconWrapper className='p-2'>  {/* Устанавливает абсолютное положение внутри поля ввода */}
                 <IconOnlyButton icon={<SearchIcon/>}/>
             </SearchIconWrapper>
